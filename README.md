@@ -50,8 +50,11 @@ resultados en `output/` dentro de su carpeta.
 | Archivo | Descripción |
 | --- | --- |
 | `analisis_airbnb.ipynb` | Parte 1 (entidades con `openai/gpt-oss-120b`) y Parte 2 (comentarios con `openai/gpt-oss-20b`). |
-| `data/listings1_cleaned.csv` | 12.742 anuncios con descripción (HTML limpiado, sin datos del anfitrión). |
-| `data/Airbnb_reviews_5000.csv` | Las 5.000 reseñas más recientes de esos anuncios (sin datos del revisor). |
+| `data/listings1_cleaned.csv` | 12.742 anuncios con descripción (HTML limpiado, sin las columnas del anfitrión). |
+| `data/Airbnb_reviews_5000.csv` | Las 5.000 reseñas más recientes de esos anuncios (sin nombre ni id del revisor). |
+
+Los textos libres (descripciones y comentarios) pueden seguir mencionando nombres
+de pila, como en la fuente pública original.
 | `scripts/preparar_datos.py` | Regenera los dos CSV desde Inside Airbnb. |
 | `output/` | `entidades_alojamientos.csv/.json`, `analisis_comentarios.csv`, `analisis_por_alojamiento.csv` (se generan al ejecutar; no versionados). |
 

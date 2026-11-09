@@ -5,7 +5,7 @@ no estaban disponibles, así que se reconstruyen con los datos públicos de
 Inside Airbnb (https://insideairbnb.com, licencia CC BY 4.0):
 
 - `listings1_cleaned.csv`: anuncios de Oporto con descripción, HTML limpiado y
-  solo las columnas útiles para el ejercicio (sin datos del anfitrión).
+  solo las columnas útiles para el ejercicio (sin las columnas del anfitrión).
 - `Airbnb_reviews_5000.csv`: las 5.000 reseñas más recientes de esos anuncios,
   sin nombre ni id del revisor.
 
