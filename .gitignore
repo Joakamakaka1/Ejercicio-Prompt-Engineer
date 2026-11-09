@@ -15,7 +15,7 @@ __pycache__/
 .env
 
 # Salida generada por el notebook
-output/*.csv
+**/output/
 
 # Andamiaje (no forma parte del entregable)
 _build_notebook.py
