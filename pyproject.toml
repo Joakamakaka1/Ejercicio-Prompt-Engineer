@@ -1,7 +1,7 @@
 [project]
 name = "pontia-videojuegos-llm"
 version = "0.1.0"
-description = "Ejercicio 2 - Pipeline de 2 LLMs (Groq) para analisis de resenas de videojuegos"
+description = "Modulo de Prompt Engineering - Ejercicios 1 (AirBnB) y 2 (videojuegos) con LLMs de Groq"
 readme = "README.md"
 requires-python = ">=3.11,<3.14"
 dependencies = [
